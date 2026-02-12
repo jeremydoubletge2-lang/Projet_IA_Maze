@@ -166,7 +166,7 @@ class Maze:
 # TEST COMPARAISON
 # =========================================
 
-maze = Maze(200, 200, (0, 0), (199,199))
+maze = Maze(10, 10, (0, 0), (9,9))
 maze.generate_random_obstacles(0.3)
 
 # A*
